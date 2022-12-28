@@ -1,0 +1,156 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px;
+    background: #FFFFFF;
+}
+
+.navbar_logo {
+    flex: 1;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.navbar_links {
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar_logo img {
+    height: 49px;
+    width: 156px;
+}
+
+.navbar_links a {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+
+    margin-right: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.navbar_login {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navbar_login button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 108px;
+    height: 43px;
+    border: none;
+
+    background: #698D0C;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.navbar_menu {
+    margin-left: 1rem;
+
+    display: none;
+    position: relative;
+}
+
+.navbar_menu-container_links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    text-align: end;
+    background: #EFEFEF;
+    padding: 0;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 200px;
+    border-radius: 5px;
+}
+
+.navbar_menu-container a {
+    margin: 0.5rem 0;
+    font-family: 'DM Sans', sans-serif;
+    padding-right: 2rem;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1050px) {
+    .navbar {
+        padding: 30px 80px;
+    }
+
+    .navbar_links {
+        display: none;
+    }
+
+    .navbar_menu {
+        display: flex;
+    }
+
+    .navbar_login button {
+        width: 100px;
+        height: 42px;
+
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .navbar {
+        padding: 30px 60px;
+    }
+
+    .navbar_login button {
+        width: 95px;
+        height: 40px;
+
+        font-size: 14px;
+    }
+
+    .navbar_logo img {
+        height: 43px;
+        width: 140px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .navbar {
+        padding: 30px 15px;
+    }
+
+    .navbar_login button {
+        width: 83px;
+        height: 35px;
+
+        font-size: 14px;
+    }
+
+    .navbar_logo img {
+        height: 40px;
+        width: 130px;
+    }
+}
+
+

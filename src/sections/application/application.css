@@ -1,0 +1,141 @@
+.application {
+    display: flex;
+    flex-direction: column;
+    padding: 150px;
+    align-items: center;
+}
+
+.application h1 {
+font-family: 'DM Sans', sans-serif;
+font-weight: 700;
+font-size: 36px;
+
+color: #3C5101;
+}
+
+.application_option {
+    display: flex;
+    margin: 2rem 0;
+}
+
+.blender_input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 44px 48px;
+    justify-content: space-between;
+
+    height: 400px;
+
+    background: #698D0C;
+    color: #FFFFFF;
+}
+
+.blender_input:first-child {
+    margin-right: 1rem;
+}
+
+.blender_input:last-child {
+    margin-left: 1rem;
+}
+
+.blender_input h1 {
+    color: #FFFFFF;
+}
+
+.blender_input p {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.blender_input button {
+    display: flex;
+    padding: 12px 34px;
+    align-items: center;
+    justify-content: center;
+
+    width: 147px;
+    height: 48px;
+
+    background: #698D0C;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+
+    cursor: pointer;
+
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1050px) {
+    .application {
+        padding: 150px 80px;
+    }
+
+    .application h1 {
+        font-size: 34px;
+    }
+
+    .blender_input p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .application_option {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blender_input {
+        margin: 1rem;
+    }
+
+    .application {
+        padding: 150px 60px;
+    }
+
+    .application h1 {
+        font-size: 32px;
+    }
+
+    .blender_input p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .blender_input {
+        height: 350px;
+    }
+
+    .application {
+        padding: 150px 15px;
+    }
+
+    .application h1 {
+        font-size: 24px;
+    }
+
+    .blender_input p {
+        font-size: 14px;
+    }
+
+    .blender_input button {
+        width: 135px;
+        height: 40px;
+
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .blender_input {
+        padding: 1.5rem;
+    }
+}
+

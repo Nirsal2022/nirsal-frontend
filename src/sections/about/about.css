@@ -1,0 +1,116 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 150px 30px;
+    background: #EFEFEF;
+}
+
+.about_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 780px;
+    margin-bottom: 3rem;
+}
+
+.about_title h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    margin-bottom: 2rem;
+
+    color: #3C5101;
+}
+
+.about_title p {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.about_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.about_content-container {
+    box-sizing: border-box;
+    width: 223px;
+    height: 217px;
+    background: #FFFFFF;
+    border: 1px solid #698D0C;
+
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: flex-start;
+    margin: 1rem;
+}
+
+.about_content-container:hover {
+    background: #F9FFEA;
+    border-bottom: 8px solid #698D0C;
+    cursor: pointer;
+}
+
+.about_content-container p:first-child {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 31px;
+
+    color: #3C5101;
+}
+
+.about_content-container p:last-child {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 1.5rem;
+
+    color: #000000;
+}
+
+@media screen and (max-width: 750px) {
+    .about_title h1 {
+        font-size: 32px;
+    }
+    
+    .about_title p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .about {
+        padding: 100px 15px;
+    }
+    .about_title h1 {
+        font-size: 30px;
+        margin-bottom: 1rem;
+    }
+    
+    .about_title p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 1rem;
+    }
+
+    .about_content-container {
+        width: 100%;
+    }    
+}

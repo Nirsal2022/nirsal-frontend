@@ -17,15 +17,21 @@ const SignUp = () => {
                 </div>
                 <div className="signup_input">
                     <p>Full Name</p>
-                    <input type="text" id='name' placeholder='Enter Full Name ' />
+                    <div className="signup_input-field">
+                        <input type="text" id='name' placeholder='Enter Full Name ' />
+                    </div>
                 </div>
                 <div className="signup_input">
                     <p>Email</p>
-                    <input type="text" id='email' placeholder='Enter Email Address' />
+                    <div className="signup_input-field">
+                        <input type="text" id='email' placeholder='Enter Email Address ' />
+                    </div>
                 </div>
                 <div className="signup_input">
                     <p>Phone Number</p>
-                    <input type="text" id='number' placeholder='Enter Phone Number' />
+                    <div className="signup_input-field">
+                        <input type="text" id='number' placeholder='Enter Phone Number ' />
+                    </div>
                 </div>
                 <div className="signup_button">
                     <button id="button"><Link to="/setpass" style={{textDecoration:"none", color:"inherit"}}>Sign up</Link></button>

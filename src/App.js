@@ -11,6 +11,8 @@ import Notification from './pages/notification/Notification';
 import ResetPass from './pages/resetPass/ResetPass';
 import UserType from './pages/usertype/UserType';
 import PresidentBVN from './pages/onboarding/presidentbvn/PresidentBVN';
+import VPresidentBVN from './pages/onboarding/vpresidentbvn/VPresidentBVN';
+import FinSecBVN from './pages/onboarding/finsecbvn/FinSecBVN';
 
 import {
   BrowserRouter as Router,
@@ -33,6 +35,8 @@ function App() {
           <Route path="/resetpass" element={<ResetPass />}></Route>
           <Route path="/usertype" element={<UserType />}></Route>
           <Route path="/president_bvn" element={<PresidentBVN />}></Route>
+          <Route path="/vice_president_bvn" element={<VPresidentBVN />}></Route>
+          <Route path="/finsec_bvn" element={<FinSecBVN />}></Route>
         </Routes>
       </Fragment>
     </Router>

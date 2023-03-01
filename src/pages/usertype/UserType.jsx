@@ -29,7 +29,7 @@ const UserType = () => {
                                 that supply and distribute input products and 
                                 pre-production services.
                             </p>
-                            <p><Link to="/signup" style={{textDecoration:"none", color:"inherit"}}>Continue</Link><Icon icon={ic_arrow_forward} size={20} /></p>
+                            <p><Link to="/register" style={{textDecoration:"none", color:"inherit"}}>Continue</Link><Icon icon={ic_arrow_forward} size={20} /></p>
                         </div>
                     </div>
                     <div className="user_type-input">
@@ -40,7 +40,7 @@ const UserType = () => {
                                 Blenders are individuals/companies who operate 
                                 input items production plant.
                             </p>
-                            <p><Link to="/signup" style={{textDecoration:"none", color:"inherit"}}>Continue</Link><Icon icon={ic_arrow_forward} size={20} /></p>
+                            <p><Link to="/register" style={{textDecoration:"none", color:"inherit"}}>Continue</Link><Icon icon={ic_arrow_forward} size={20} /></p>
                         </div>
                     </div>
                 </div>

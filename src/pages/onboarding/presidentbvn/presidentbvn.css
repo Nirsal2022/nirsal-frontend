@@ -1,9 +1,49 @@
+.pres_bvn-steps {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0 0 0;
+    background: #D0D0D0;
+}
+
+.pres_bvn-step {
+    display: flex;
+    width: 614px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 15px;
+}
+
+.pres_bvn-step p {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+
+    color: #000000;
+}
+
+.pres_bvn-step span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 91px;
+    height: 32px;
+
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    
+    background: #C5D98F;
+    color: #000000;
+}
+
 .pres_bvn {
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
-    padding: 50px 0 300px 0;
+    padding: 30px 0 300px 0;
     background: #D0D0D0;
 }
 
@@ -13,55 +53,14 @@
     align-items: center;
     justify-content: center;
     width: 550px;
+    padding: 4rem 2rem;
     margin: 0 15px;
-    padding: 4rem 2rem;
-    overflow: hidden;
-}
-
-.pres_bvn-kyl {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    margin-bottom: 2rem;
-}
-
-.pres_bvn-kyl p:first-child {
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-
-    color: #000000;
-}
-
-.pres_bvn-kyl p:last-child {
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-
-    color: #000000;
-}
-
-.pres_bvn-kyl div {
-    display: flex;
-    align-items: center;
-    padding: 4px 8px;
-
-    background: #C5D98F;
-}
-
-.pres_bvn-contain {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding: 4rem 2rem;
     background: #fff;
 }
 
 .pres_bvn-title {
     display: flex;
+    width: 100%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -89,12 +88,19 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 100%;
+}
+
+.pres_bvn-code {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: center;
     width: 100%;
     padding-bottom: 2rem;
 }
 
-.pres_bvn-input p {
+.pres_bvn-code p {
     font-family: 'DM Sans', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -103,7 +109,7 @@
     color: #000000;
 }
 
-.pres_bvn-field {
+.pres_bvn-input_field {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -116,7 +122,7 @@
     border: 1px solid #B0B0B0;
 }
 
-.pres_bvn-field input {
+.pres_bvn-input_field input {
     width: 100%;
     background-color: transparent;
     outline: none;
@@ -125,7 +131,7 @@
     font-size: 16px;
 }
 
-.pres_bvn-field input::placeholder {
+.pres_bvn-input_field input::placeholder {
     font-family: 'DM Sans', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -135,7 +141,6 @@
 
 .pres_bvn-button {
     display: flex;
-    align-items: center;
     flex-direction: column;
     width: 100%;
 }
@@ -157,9 +162,10 @@
     font-size: 16px;
 
     color: #FFFFFF;
+    cursor: pointer;
 }
 
-.pres_bvn-button p {
+.pres_bvn-check {
     font-family: 'DM Sans', sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -168,7 +174,17 @@
     color: #626262;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 585px) {
+    .pres_bvn-step p {
+        font-size: 20px;
+    }
+    
+    .pres_bvn-step span {
+        width: 86px;
+        height: 29px;
+
+        font-size: 12px;
+    }
 
     .pres_bvn-title h1 {
         font-size: 30px;
@@ -178,50 +194,41 @@
         font-size: 12px;
     }
 
-    .pres_bvn-kyl p:first-child {
-        font-size: 20px;
-    }
-    
-    .pres_bvn-kyl p:last-child {
-        font-size: 12px;
+    .pres_bvn-code {
+        padding-bottom: 1rem;
     }
 
-    .pres_bvn-input p {
+    .pres_bvn-code p {
         font-size: 14px;
     }
 
-    .pres_bvn-field input::placeholder {
+    .pres_bvn-input_field input::placeholder {
         font-size: 14px;
-    }
-
-    .pres_bvn-button p {
-        font-size: 10px;
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 385px) {
+    .pres_bvn-step p {
+        font-size: 16px;
+    }
+    
+    .pres_bvn-step span {
+        font-size: 10px;
+    }
 
     .pres_bvn-title h1 {
-        font-size: 24px;
+        font-size: 28px;
     }
 
     .pres_bvn-title p {
         font-size: 10px;
     }
 
-    .pres_bvn-kyl p:first-child {
-        font-size: 16px;
-    }
-    
-    .pres_bvn-kyl p:last-child {
-        font-size: 10px;
-    }
-
-    .pres_bvn-input p {
+    .pres_bvn-code p {
         font-size: 12px;
     }
 
-    .pres_bvn-field input::placeholder {
+    .pres_bvn-input_field input::placeholder {
         font-size: 12px;
     }
 }

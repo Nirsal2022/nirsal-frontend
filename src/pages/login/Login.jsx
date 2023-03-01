@@ -51,7 +51,7 @@ const Login = () => {
                     <button>Login</button>
                 </div>
                 <div className="login_sign-up">
-                    <p>Don’t have an account? <span><Link to="/signup" style={{textDecoration:"none", color:"inherit"}}>Sign up here</Link></span></p>
+                    <p>Don’t have an account? <span><Link to="/register" style={{textDecoration:"none", color:"inherit"}}>Sign up here</Link></span></p>
                 </div>
             </div>
         </div>

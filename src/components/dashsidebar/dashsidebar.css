@@ -1,0 +1,73 @@
+.dashhome_sidebar {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    background: #fff;
+    margin-left: 50px;
+}
+
+.dashhome_sidebar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background: #EFEFEF;
+    margin-bottom: 2rem;
+}
+
+.dashhome_sidebar-username p:first-child {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+
+    margin-bottom: 10px;
+
+    color: #000000;
+}
+
+.dashhome_sidebar-username p:last-child {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+
+    text-decoration-line: underline;
+
+    color: #626262;
+}
+
+.dashhome_sidebar-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem 0;
+}
+
+.dashhome_sidebar-list {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.dashhome_sidebar-list p {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+
+    margin-left: 10px;
+
+    color: #626262;
+    cursor: pointer;
+}
+
+.dashhome_sidebar-icon {
+    color: #626262;
+}
+
+.dashhome_sidebar-list:hover p {
+    color: #5C731A;
+}
+
+.dashhome_sidebar-list:hover .dashhome_sidebar-icon {
+    color: #5C731A;
+}

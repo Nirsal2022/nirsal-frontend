@@ -1,0 +1,147 @@
+.review {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 150px;
+    background: #D0D0D0;
+}
+
+.review_steps {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.review_steps p {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+
+    color: #000000;
+}
+
+.review_steps span {
+    display: flex;
+    padding: 4px 8px;
+    gap: 10px;
+
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+
+
+    color: #000000;
+
+    background: #C5D98F;
+}
+
+.review_container {
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.review_container-section {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background: #fff;
+}
+
+.review_members-header {
+    display: flex;
+    padding: 0.5rem 1rem;
+    background: #F2F2F2;
+    margin-bottom: 1rem;
+}
+
+.review_members-header p {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+
+    color: #000000;
+}
+
+.number {
+    flex: 1;
+}
+.farmer {
+    margin-left: 2rem;
+    flex: 4;
+}
+.phone {
+    margin-left: 2rem;
+    flex: 3;
+}
+.cross_guarantee {
+    margin-left: 2rem;
+    flex: 3;
+}
+.generate {
+    margin-left: 2rem;
+    flex: 3;
+}
+
+.review_member {
+    display: flex;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.review_member p {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+
+    color: #626262;
+}
+
+.phone-section {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+
+    background: #F6F6F6;
+    border: 1px solid #C1C1C1;
+}
+
+.cross_guarantee-section {
+    display: flex;
+    justify-content: center;
+    padding: 8px 0px;
+
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+
+    background: rgba(255, 21, 35, 0.1);
+    color: red;
+}
+
+.generate_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0px;
+    border: none;
+
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+
+
+    color: #FFFFFF;
+
+    background: #698D0C;
+    cursor: pointer;
+}
+
+.review_container-section hr {
+    border: 1px solid #B0B0B0;
+}

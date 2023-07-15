@@ -4,6 +4,7 @@ import './resetpass.css'
 import {Icon} from 'react-icons-kit'
 import {eye} from 'react-icons-kit/feather/eye'
 import {eyeOff} from 'react-icons-kit/feather/eyeOff'
+import { Link } from 'react-router-dom'
 
 
 const ResetPass = () => {
@@ -45,7 +46,7 @@ const ResetPass = () => {
                         </div>
                     </div>
                     <div className="resetpass_button">
-                        <button>Continue</button>
+                        <button><Link to="/login" style={{textDecoration:"none", color:"inherit"}}>Continue</Link></button>
                     </div>
                 </div>
             </div>

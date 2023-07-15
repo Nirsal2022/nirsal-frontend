@@ -16,6 +16,17 @@ import FinSecBVN from './pages/onboarding/finsecbvn/FinSecBVN';
 import PresidentInfo from './pages/onboarding/presidentinfo/PresidentInfo';
 import VPresidentInfo from './pages/onboarding/vpresidentinfo/VPresidentInfo';
 import FinSecInfo from './pages/onboarding/finsecinfo/FinSecInfo';
+import Overview from './pages/onboarding/overview/Overview';
+import AGCInfo from './pages/onboarding/agcinfo/AGCInfo';
+import MoreMembers from './pages/onboarding/moremembers/MoreMembers';
+import MemReview from './pages/onboarding/memreview/MemReview';
+import FinalInfo from './pages/onboarding/finalinfo/FinalInfo';
+import Welcome from './pages/onboarding/welcome/Welcome';
+import DashHome from './pages/dashboard/dashhome/DashHome';
+import DashAgc from './pages/dashboard/dashagc/DashAgc';
+import DashUsers from './pages/dashboard/dashusers/DashUsers';
+import DashActive from './pages/dashboard/dashactive/DashActive';
+import DashAccount from './pages/dashboard/dashaccount/DashAccount';
 
 import {
   BrowserRouter as Router,
@@ -43,6 +54,17 @@ function App() {
           <Route path="/president_info" element={<PresidentInfo />}></Route>
           <Route path="/vice_president_info" element={<VPresidentInfo />}></Route>
           <Route path="/finsec_info" element={<FinSecInfo />}></Route>
+          <Route path="/overview" element={<Overview />}></Route>
+          <Route path="/agc_info" element={<AGCInfo />}></Route>
+          <Route path="/more_members" element={<MoreMembers />}></Route>
+          <Route path="/member_review" element={<MemReview />}></Route>
+          <Route path="/final_info" element={<FinalInfo />}></Route>
+          <Route path="/welcome" element={<Welcome />}></Route>
+          <Route path="/dashboard_home" element={<DashHome />}></Route>
+          <Route path="/dashboard_agc" element={<DashAgc />}></Route>
+          <Route path="/dashboard_users" element={<DashUsers />}></Route>
+          <Route path="/dashboard_activity" element={<DashActive />}></Route>
+          <Route path="/dashboard_account" element={<DashAccount />}></Route>
         </Routes>
       </Fragment>
     </Router>

@@ -1,0 +1,296 @@
+.dash_account {
+    display: flex;
+}
+
+.dash_account-container {
+    flex: 12;
+    display: flex;
+    background: #EFEFEF;
+    padding: 1rem 50px 1rem 1rem;
+}
+
+.dash_account-inputs {
+    flex: 7;
+    padding: 1rem;
+    background: #fff;
+    margin-right: 8px;
+}
+
+.dash_account-profile {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+    padding: 1rem;
+    background: #fff;
+}
+
+.dash_account-input_header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.dash_account-input_header h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+
+    margin-bottom: 0.5rem;
+
+    color: #626262;
+}
+
+.dash_account-input_header p {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+
+    color: #938E8E;
+}
+
+.dash_account-input_email {
+    margin: 1rem 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.dash_account-input_email p {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+
+    margin-bottom: 0.5rem;
+
+    color: #000000;
+}
+
+
+.dash_account-input_email {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.dash_account-input_email p {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+
+    color: #000000;
+}
+
+.dash_account-email {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+
+    background: #F6F6F6;
+    border: 1px solid #C4C4C4;
+}
+
+.dash_account-email input {
+    padding: 12px 12px;
+    border: none;
+    background: none;
+    outline: none;
+    width: 100%;
+}
+
+.dash_account-input_details {
+    display: flex;
+    width: 100%;
+}
+
+.dash_account-input_name {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+
+.dash_account-input_name p {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 8px;
+
+    color: #000000;
+}
+
+.dash_account-input_name:first-child {
+    margin-right: 0.5rem;
+}
+
+.dash_account-input_name:last-child {
+    margin-left: 0.5rem;
+}
+
+.dash_account-name {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+
+    background: #F6F6F6;
+    border: 1px solid #C4C4C4;
+}
+
+.dash_account-name input {
+    padding: 12px 12px;
+    border: none;
+    background: none;
+    outline: none;
+    width: 100%;
+}
+
+.dash_account-input_location {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    margin-left: 0.5rem;
+}
+
+.dash_account-town {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+
+.dash_account-town:first-child {
+    margin-right: 8px;
+}
+
+.dash_account-town:last-child {
+    margin-left: 8px;
+}
+
+.dash_account-town p {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 8px;
+
+    color: #000000;
+}
+
+.dash_account-more_info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 1rem 0;
+
+    cursor: pointer;
+}
+
+.dash_account-more_info p {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+
+    color: #626262;
+    display: flex;
+    align-items: center;
+}
+
+.dash_account-icon {
+    color: #626262;
+    margin-left: 8px;
+}
+
+.dash_account-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.dash_account-button button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 80px;
+
+    border: none;
+
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+
+    color: #FFFFFF;
+    background: #698D0C;
+    cursor: pointer;
+}
+
+.dash_account-profile_details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.dash_account-profile_details h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+
+    margin-bottom: 10px;
+
+    color: #3C5101;
+}
+
+.dash_account-profile_role {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.dash_account-profile_role p:first-child {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+
+    color: #626262;
+}
+
+.dash_account-profile_role p:last-child {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+
+    color: #621616;
+}
+
+.dash_account-profile_email {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.dash_account-profile_email p {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    
+    color: #626262;
+}
+
+.dash_account-profile_number {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+}

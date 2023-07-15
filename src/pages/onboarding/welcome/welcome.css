@@ -1,0 +1,146 @@
+.welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 70px;
+    background: #D0D0D0;
+}
+
+.welcome-steps {
+    display: flex;
+    width: 614px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 15px;
+}
+
+.welcome-steps p {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+
+    color: #000000;
+}
+
+.welcome-steps span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 91px;
+    height: 32px;
+
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    
+    background: #C5D98F;
+    color: #000000;
+}
+
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+    padding: 2rem;
+    margin: 0 15px;
+    margin-bottom: 300px;
+    background: #fff;
+}
+
+.welcome-header {
+    display: flex;
+    align-items: center;
+    padding: 70px 40px;
+    justify-content: center;
+    background: #EFEFEF;
+    margin-top: 2rem;
+}
+
+.welcome-header p {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+
+    color: #000000;
+}
+
+.welcome-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.welcome-details h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+
+    margin-bottom: 8px;
+
+    color: #698D0C
+}
+
+.welcome-details p {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #626262;
+    max-width: 380px;
+}
+
+.welcome-button {
+    display: flex;
+    width: 100%;
+}
+
+.welcome-button button:first-child {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0px;
+    margin-right: 10px;
+
+    background: #FFFFFF;
+    border: 1px solid #698D0C;
+    color: #698D0C;
+
+    cursor: pointer;
+}
+
+.welcome-button button:last-child {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0px;
+    margin-left: 10px;
+
+    border: none;
+    background: #698D0C;
+    color: #fff;
+
+    cursor: pointer;
+}
+
+
+

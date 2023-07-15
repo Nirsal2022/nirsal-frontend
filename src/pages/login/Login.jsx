@@ -48,7 +48,7 @@ const Login = () => {
                     <p><Link to="/forgotpass" style={{textDecoration:"none", color:"inherit"}}>Forgot Password?</Link></p>
                 </div>
                 <div className="login_button">
-                    <button>Login</button>
+                    <button><Link to="/president_bvn" style={{textDecoration:"none", color:"inherit"}}>Login</Link></button>
                 </div>
                 <div className="login_sign-up">
                     <p>Don’t have an account? <span><Link to="/register" style={{textDecoration:"none", color:"inherit"}}>Sign up here</Link></span></p>

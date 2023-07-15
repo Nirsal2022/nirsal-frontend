@@ -3,6 +3,7 @@ import './presidentinfo.css'
 import presImg from '../../../images/president.png'
 import NaijaStates from 'naija-state-local-government';
 import SignNav from '../../../components/signnav/SignNav';
+import { Link } from 'react-router-dom'
 
 const PresidentInfo = () => {
     const [getState, setState] = useState([]);
@@ -142,25 +143,25 @@ const PresidentInfo = () => {
                             </div>
                             <div className="pres_businessInfo-input">
                                 <p>Business Name</p>
-                                <div className="input_details">
+                                <div className="pres_input_details">
                                     <input type="text" placeholder='Enter Business name ' />
                                 </div>
                             </div>
                             <div className="pres_businessInfo-input">
                                 <p>Business Type</p>
-                                <div className="input_details">
+                                <div className="pres_input_details">
                                     <input type="text" placeholder='Please Choose' />
                                 </div>
                             </div>
                             <div className="pres_businessInfo-input">
                                 <p>Business Address Line 1</p>
-                                <div className="input_details">
+                                <div className="pres_input_details">
                                     <input type="text" placeholder='Enter address line 1' />
                                 </div>
                             </div>
                             <div className="pres_businessInfo-input">
                                 <p>Business Address Line 2</p>
-                                <div className="input_details">
+                                <div className="pres_input_details">
                                     <input type="text" placeholder='Enter address line 2' />
                                 </div>
                             </div>
@@ -234,7 +235,7 @@ const PresidentInfo = () => {
                             </div>
                         </div>
                         <div className="pres_button">
-                            <button>Save & Continue</button>
+                            <button><Link to="/vice_president_info" style={{textDecoration:"none", color:"inherit"}}>Save & Continue</Link></button>
                         </div>
                     </div>
                 </div>

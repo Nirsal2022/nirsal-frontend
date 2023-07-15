@@ -1,6 +1,7 @@
 import React from 'react'
 import SignNav from '../../../components/signnav/SignNav'
 import './vpresidentbvn.css'
+import { Link } from 'react-router-dom'
 
 const VPresidentBVN = () => {
   return (
@@ -27,7 +28,7 @@ const VPresidentBVN = () => {
                     </div>
                 </div>
                 <div className="vicePres_bvn-button">
-                    <button>Login</button>
+                    <button><Link to="/finsec_bvn" style={{textDecoration:"none", color:"inherit"}}>Continue</Link></button>
                 </div>
                 <p className='vicePres_bvn-check'>Dial *560# to check your BVN</p>
             </div>

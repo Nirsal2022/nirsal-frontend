@@ -1,0 +1,242 @@
+.dashhome {
+    display: flex;
+    background: #fff;
+}
+
+.dashhome_user {
+    flex: 12;
+    display: flex;
+    background: #EFEFEF;
+    padding: 1rem 50px 1rem 1rem;
+}
+
+.dashhome_user-section {
+    flex: 7;
+    margin-right: 8px;
+}
+
+.dashhome_user-all {
+    display: flex;
+}
+
+.dashhome_user-allagc {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1rem;
+    background: #fff;
+    margin-bottom: 8px;
+}
+
+.dashhome_user-allagc p:first-child {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+
+    color: #626262;
+    margin-bottom: 20px;
+}
+
+.dashhome_user-numbers {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.dashhome_user-allagc:first-child {
+    margin-right: 8px;
+}
+
+.dashhome_user-allagc:last-child {
+    margin-left: 8px;
+}
+
+.dashhome_user-numbers h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+
+    color: #698D0C;
+}
+
+.dashhome_user-numbers p {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #626262;
+}
+
+.dashhome_user-logs {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: 8px;
+    background: #fff;
+}
+
+.dashhome_user-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.dashhome_user-top p:first-child {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+
+    color: #626262;
+}
+
+.dashhome_user-top p:last-child {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+
+    text-decoration-line: underline;
+
+    color: #626262;
+    cursor: pointer;
+}
+
+.dashhome_user-tags {
+    display: flex;
+    padding: 10px 0px 10px 16px;
+    background: #F6F6F6;
+}
+
+.dashhome_user-tags p {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+
+    color: #698D0C;
+}
+
+.dashhome_user-number {
+    flex: 1;
+}
+
+.dashhome_user-name {
+    flex: 5;
+}
+
+.dashhome_user-member {
+    flex: 3;
+}
+
+.dashhome_user-status {
+    flex: 3;
+}
+
+.dashhome_user-action {
+    flex: 2;
+}
+
+.dashhome_user-value {
+    display: flex;
+    padding: 10px 0px 10px 16px;
+    background: #fff;
+}
+
+.dashhome_user-value p {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+
+    color: #626262;
+}
+
+.dashhome_user-value p:last-child {
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.dashhome_user-value span {
+    width: 50%  ;
+    padding: 4px 10px;
+
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+
+    color: #698D0C;
+
+    background: #EBF4D2;
+}
+
+.dashhome_user-logs hr {
+    border: 0.5px solid #B0B0B0;
+    margin: 5px 0px;
+}
+
+.dashhome_user-activity_log {
+    flex: 3;
+    margin-left: 8px;
+    padding: 1rem;
+    background: #fff;
+}
+
+.dashhome_user-activity_log h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+
+    margin-bottom: 1rem;
+
+    color: #626262;
+}
+
+.dashhome_activity-log {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 1rem 0;
+}
+
+.dashhome_activity-log p {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+
+    color: #626262;
+}
+
+.dashhome_activity-alert {
+    display: flex;
+    align-items: center;
+    
+    width: 100%;
+    justify-content: space-between;
+}
+
+.dashhome_activity-alert p {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #000000;
+}
+
+.dashhome_activity-alert span {
+    display: flex;
+    align-items: center;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 1200;
+    font-size: 25px;
+    line-height: 18px;
+
+    color: #626262;
+    cursor: pointer;
+}
+
